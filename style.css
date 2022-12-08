@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Sarala&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  body{
+    font-size: 100%;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+  }
+
+  .cabeçalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 24px;
+  }
+
+  .logo{
+    height: 72px;
+    margin-left: -40px;
+  }
+
+  .conteúdo{
+    border-top: 0.4px solid #3F3F3F;
+  }
+
+  .conteudo-secundario{
+    margin-left: 140px;
+    margin-top: 45px;
+    font-size: large;
+    font-family: 'Roboto Mono';
+  }
+  .cabeçalho-menu{
+    display: flex;
+   gap: 30px;
+   margin-right: -140px;
+  }
+
+  a:hover{
+    font-family:'sarala';
+    color: #707070;
+    transition: 0.4s all;
+  }
+
+  a{
+    color: #ffffff;
+    font-family: 'sarala';
+  }
+
+  .conteudo-principal-escrito-titulo{
+    color: #ffffff;
+    font-family: 'Roboto Mono';
+    margin-left: 130px;
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  .conteudo-principal-escrito-subtitulo{
+    color:#ffffff;
+    font-family: 'Roboto mono';
+    margin-left: 135px;
+  }
+
+  button{
+    width: 165px;
+    height: 80px;
+    border-radius:60px;   
+    color: #ffffff;
+    font-family: 'Roboto Mono';
+  }
+
+  .botão{
+    margin-left: 150px;
+    background-color: black;
+    margin-top: 33px;
+  }
+
+  .conteudo-secundario-titulo{
+    color: #ffffff;
+  }
+
+li{
+  color: #ffffff;
+  margin: 30px 50px 0px 0px;
+}
+
+
+footer{
+    color: rgba(255,255,255,0.40);
+    font-family: 'Roboto mono';
+    font-size: 80px;
+    text-align: center;
+    border-top: 0.4px solid #3F3F3F;
+}
+
+.Boot{
+    width: 275px;
+    margin-left: 970px;
+    margin-top: -370px;
+
+}
+
